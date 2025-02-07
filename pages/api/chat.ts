@@ -10,7 +10,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   // Autoriser les requêtes CORS
-  res.setHeader('Access-Control-Allow-Origin', 'https://votre-compte.github.io');
+  res.setHeader('Access-Control-Allow-Origin', 'https://bilalbennasr.github.io/');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
