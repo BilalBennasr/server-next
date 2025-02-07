@@ -28,7 +28,7 @@ export default async function handler(
     const { messages } = req.body;
 
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "gpt-4o-mini-2024-07-18",
       messages,
       temperature: 0.1,
     });
