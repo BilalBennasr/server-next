@@ -1,0 +1,10 @@
+{
+    "headers": [
+      {
+        "source": "/api/stream-chat",
+        "headers": [
+          { "key": "Content-Type", "value": "text/event-stream" }
+        ]
+      }
+    ]
+  }
