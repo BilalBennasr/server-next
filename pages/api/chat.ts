@@ -30,7 +30,8 @@ export default async function handler(
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini-2024-07-18",
       messages,
-      temperature: 0.1,
+      temperature: 0,
+      stream: false
     });
 
     res.status(200).json({ reply: completion.choices[0].message.content });
